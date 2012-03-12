@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CB6EBA81505FEDB007300ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB6EBA71505FEDB007300ED /* UIKit.framework */; };
+		4CB6EBAA1505FEDB007300ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB6EBA91505FEDB007300ED /* Foundation.framework */; };
+		4CB6EBAC1505FEDB007300ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB6EBAB1505FEDB007300ED /* CoreGraphics.framework */; };
+		4CB6EBB21505FEDB007300ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6EBB01505FEDB007300ED /* InfoPlist.strings */; };
+		4CB6EBB41505FEDB007300ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB6EBB31505FEDB007300ED /* main.m */; };
+		4CB6EBB81505FEDB007300ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB6EBB71505FEDB007300ED /* AppDelegate.m */; };
+		4CB6EBBB1505FEDB007300ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB6EBBA1505FEDB007300ED /* ViewController.m */; };
+		4CB6EBBE1505FEDB007300ED /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6EBBC1505FEDB007300ED /* ViewController.xib */; };
+		4CB6EBD51506255D007300ED /* ShipWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6EBD41506255D007300ED /* ShipWheel.png */; };
+		4CB6EBD71506281C007300ED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB6EBD61506281C007300ED /* QuartzCore.framework */; };
+		4CB71F01150E12B600006B11 /* ShipWheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB71EFE150E12B600006B11 /* ShipWheel@2x.png */; };
+		4CB71F0D150E135800006B11 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB71F0C150E135800006B11 /* Icon.png */; };
+		4CB71F0F150E136000006B11 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB71F0E150E136000006B11 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CB6EBA31505FEDB007300ED /* Wheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB6EBA71505FEDB007300ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CB6EBA91505FEDB007300ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CB6EBAB1505FEDB007300ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CB6EBAF1505FEDB007300ED /* Wheel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wheel-Info.plist"; sourceTree = "<group>"; };
+		4CB6EBB11505FEDB007300ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CB6EBB31505FEDB007300ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CB6EBB51505FEDB007300ED /* Wheel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wheel-Prefix.pch"; sourceTree = "<group>"; };
+		4CB6EBB61505FEDB007300ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CB6EBB71505FEDB007300ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CB6EBB91505FEDB007300ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CB6EBBA1505FEDB007300ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CB6EBBD1505FEDB007300ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4CB6EBD41506255D007300ED /* ShipWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShipWheel.png; sourceTree = "<group>"; };
+		4CB6EBD61506281C007300ED /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4CB71EFE150E12B600006B11 /* ShipWheel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ShipWheel@2x.png"; sourceTree = "<group>"; };
+		4CB71F0C150E135800006B11 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		4CB71F0E150E136000006B11 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CB6EBA01505FEDB007300ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB6EBD71506281C007300ED /* QuartzCore.framework in Frameworks */,
+				4CB6EBA81505FEDB007300ED /* UIKit.framework in Frameworks */,
+				4CB6EBAA1505FEDB007300ED /* Foundation.framework in Frameworks */,
+				4CB6EBAC1505FEDB007300ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CB6EB981505FED9007300ED = {
+			isa = PBXGroup;
+			children = (
+				4CB6EBAD1505FEDB007300ED /* Wheel */,
+				4CB6EBA61505FEDB007300ED /* Frameworks */,
+				4CB6EBA41505FEDB007300ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CB6EBA41505FEDB007300ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CB6EBA31505FEDB007300ED /* Wheel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CB6EBA61505FEDB007300ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CB6EBD61506281C007300ED /* QuartzCore.framework */,
+				4CB6EBA71505FEDB007300ED /* UIKit.framework */,
+				4CB6EBA91505FEDB007300ED /* Foundation.framework */,
+				4CB6EBAB1505FEDB007300ED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CB6EBAD1505FEDB007300ED /* Wheel */ = {
+			isa = PBXGroup;
+			children = (
+				4CB6EBD315062445007300ED /* Resources */,
+				4CB6EBB61505FEDB007300ED /* AppDelegate.h */,
+				4CB6EBB71505FEDB007300ED /* AppDelegate.m */,
+				4CB6EBB91505FEDB007300ED /* ViewController.h */,
+				4CB6EBBA1505FEDB007300ED /* ViewController.m */,
+				4CB6EBBC1505FEDB007300ED /* ViewController.xib */,
+				4CB6EBAE1505FEDB007300ED /* Supporting Files */,
+			);
+			path = Wheel;
+			sourceTree = "<group>";
+		};
+		4CB6EBAE1505FEDB007300ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CB6EBAF1505FEDB007300ED /* Wheel-Info.plist */,
+				4CB6EBB01505FEDB007300ED /* InfoPlist.strings */,
+				4CB6EBB31505FEDB007300ED /* main.m */,
+				4CB6EBB51505FEDB007300ED /* Wheel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CB6EBD315062445007300ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CB71F0E150E136000006B11 /* Icon@2x.png */,
+				4CB71F0C150E135800006B11 /* Icon.png */,
+				4CB6EBD41506255D007300ED /* ShipWheel.png */,
+				4CB71EFE150E12B600006B11 /* ShipWheel@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CB6EBA21505FEDB007300ED /* Wheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB6EBC11505FEDB007300ED /* Build configuration list for PBXNativeTarget "Wheel" */;
+			buildPhases = (
+				4CB6EB9F1505FEDB007300ED /* Sources */,
+				4CB6EBA01505FEDB007300ED /* Frameworks */,
+				4CB6EBA11505FEDB007300ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wheel;
+			productName = Wheel;
+			productReference = 4CB6EBA31505FEDB007300ED /* Wheel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CB6EB9A1505FED9007300ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4CB6EB9D1505FED9007300ED /* Build configuration list for PBXProject "Wheel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CB6EB981505FED9007300ED;
+			productRefGroup = 4CB6EBA41505FEDB007300ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CB6EBA21505FEDB007300ED /* Wheel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CB6EBA11505FEDB007300ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB6EBB21505FEDB007300ED /* InfoPlist.strings in Resources */,
+				4CB6EBBE1505FEDB007300ED /* ViewController.xib in Resources */,
+				4CB6EBD51506255D007300ED /* ShipWheel.png in Resources */,
+				4CB71F01150E12B600006B11 /* ShipWheel@2x.png in Resources */,
+				4CB71F0D150E135800006B11 /* Icon.png in Resources */,
+				4CB71F0F150E136000006B11 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CB6EB9F1505FEDB007300ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB6EBB41505FEDB007300ED /* main.m in Sources */,
+				4CB6EBB81505FEDB007300ED /* AppDelegate.m in Sources */,
+				4CB6EBBB1505FEDB007300ED /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CB6EBB01505FEDB007300ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB6EBB11505FEDB007300ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4CB6EBBC1505FEDB007300ED /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB6EBBD1505FEDB007300ED /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CB6EBBF1505FEDB007300ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CB6EBC01505FEDB007300ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CB6EBC21505FEDB007300ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sunil Goyal (3ZBX3A3823)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wheel/Wheel-Prefix.pch";
+				INFOPLIST_FILE = "Wheel/Wheel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "708F856D-EB92-4E67-A9CE-F1072D35E2EF";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4CB6EBC31505FEDB007300ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wheel/Wheel-Prefix.pch";
+				INFOPLIST_FILE = "Wheel/Wheel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CB6EB9D1505FED9007300ED /* Build configuration list for PBXProject "Wheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB6EBBF1505FEDB007300ED /* Debug */,
+				4CB6EBC01505FEDB007300ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB6EBC11505FEDB007300ED /* Build configuration list for PBXNativeTarget "Wheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB6EBC21505FEDB007300ED /* Debug */,
+				4CB6EBC31505FEDB007300ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CB6EB9A1505FED9007300ED /* Project object */;
+}
